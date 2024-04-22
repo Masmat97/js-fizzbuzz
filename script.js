@@ -1,8 +1,21 @@
+let item = document.querySelector(`ul`);
 
-let str = '';
+for (let i = 1 ; i <= 100 ; i++) {
+    let output = "";
 
-for (let i = 1; i <= 100; i++) {
-  str = str + i;
+    if (i % 3 ===0) {
+        output += "Fizz" ;
+    }
+
+    if(i % 5 === 0) {
+        output += "Buzz";
+    }
+
+    if(output === "") {
+        output = i;
+    }
+
+    console.log(output);
+
+    item.innerHTML += `<li>${output}</li>`;
 }
-
-console.log(str);
