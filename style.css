@@ -1,0 +1,58 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.contenitor {
+    display: flex;
+    flex-wrap: wrap;
+    list-style: none;
+    padding: 0;
+}
+
+.contenitor li {
+    padding: 20px;
+    margin: 5px;
+    border-radius: 5px;
+    color: white;
+    text-align: center;
+    width: 130px;
+    transition: transform 0.2s;
+}
+
+.contenitor li:hover {
+    transform: scale(1.1); 
+}
+
+.fizz {
+    background-color: #f39c12; 
+}
+
+.buzz {
+    background-color: #3498db; 
+}
+
+.fizzbuzz {
+    background-color: #2ecc71;
+}
+
+.number {
+    background-color: #e74c3c; 
+}
+
+.rosso{
+    color:#e74c3c ;
+}
+
+.arancione{
+    color:#f39c12;
+}
+
+.azzurro{
+    color: #3498db;
+}
+
+.verde{
+    color: #2ecc71;
+}
